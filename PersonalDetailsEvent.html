@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Personal Details</h2>
+        <p id="details"></p>
+        
+        <button id="eventListenerBtn">Show Details (addEventListener)</button>
+        <button id="onClickBtn">Show Details (onClick)</button>
+    </div>
+
+    <script>
+        function showDetails() {
+            document.getElementById("details").innerHTML = "<strong>Name:</strong>Aditee Satyajeet Pathak<br><strong>URN:</strong>2024-M-14122003<br><strong>Program:</strong>MCA<strong>Sem:</strong>2nd<br>";
+        }
+
+        // Using addEventListener
+        document.getElementById("eventListenerBtn").addEventListener("click", showDetails);
+
+        // Using onClick
+        document.getElementById("onClickBtn").onclick = showDetails;
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<StudentRecords>
+    <Student>
+        <ID>101</ID>
+        <Name>Ramesh Khanna</Name>
+        <Age>21</Age>
+        <Courses>
+            <Course>Math 101</Course>
+            <Course>History 202</Course>
+        </Courses>
+    </Student>
+    <Student>
+        <ID>102</ID>
+        <Name>Jane Smith</Name>
+        <Age>22</Age>
+        <Courses>
+            <Course>Biology 101</Course>
+            <Course>Physics 203</Course>
+        </Courses>
+    </Student>
+    <Student>
+        <ID>103</ID>
+        <Name>Sushmit Disuzza</Name>
+        <Age>20</Age>
+        <Courses>
+            <Course>Chemistry 101</Course>
+            <Course>Literature 204</Course>
+        </Courses>
+    </Student>
+</StudentRecords>

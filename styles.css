@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Input Box */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Weather Card */
+.weather-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+.desc {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-weight: bold;
+}
